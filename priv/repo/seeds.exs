@@ -9,3 +9,11 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+alias HelloPhx.Repo
+alias HelloPhx.Generic.Message
+
+Repo.insert!(%Message{text: "test"})
+Repo.insert!(%Message{text: "test2"})
+Repo.insert!(%Message{text: "test3"})
+Repo.insert!(%Message{text: "test4"})
+Repo.insert!(%Message{text: "test5"})

@@ -7,5 +7,7 @@ defmodule HelloPhxWeb.Router do
 
   scope "/api", HelloPhxWeb do
     pipe_through :api
+
+    resources "/messages", MessageController
   end
 end
